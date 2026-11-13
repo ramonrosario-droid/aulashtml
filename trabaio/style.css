@@ -1,0 +1,92 @@
+/* Questão 3 e 4 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Questão 10 e 11 */
+:root {
+    --cor-sangue: #8b0000;
+    --cor-zumbi: #2e8b57;
+}
+
+/* Questão 6, 7, 8 e 9 */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Questão 12, 13, 14, 15 e 16 */
+header {
+    background-color: #000000;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Questão 17 */
+header h1 {
+    color: var(--cor-sangue);
+}
+
+/* Questão 18, 19 e 20 */
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+/* Questão 21, 22, 23 e 24 */
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+/* Questão 25 */
+nav a:hover {
+    color: var(--cor-zumbi);
+}
+
+/* Questão 26 */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Questão 27 */
+section {
+    margin-bottom: 60px;
+}
+
+/* Questão 28 e 29 */
+h2 {
+    color: var(--cor-zumbi);
+    border-bottom: 2px solid var(--cor-sangue);
+    padding-bottom: 10px;
+}
+
+/* Questão 30 */
+#boas-vindas {
+    text-align: center;
+}
+
+/* Questão 31, 32, 33 e 34 */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    filter: grayscale(80%) sepia(30%);
+    transition: filter 0.5s ease;
+}
+
+/* Questão 35 */
+img:hover {
+    filter: none;
+}
